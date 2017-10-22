@@ -1,0 +1,58 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_urls.scss';
+@import '_mixins.scss';
+
+// Your CSS/SCSS below this line
+
+body {
+@include linear-gradient($background-grad-1, $background-grad-2);
+font-family: Raleway;
+}
+
+img{
+  width:100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+H1{
+  font-family:CreteRound;
+  font-size: 275px;
+}
+
+H3{
+  font-family:CreteRound;
+  font-size:55px;
+  padding-bottom: 25px;
+}
+
+H4{
+  font-family:Raleway;
+  font-style: italic;
+  font-size:35px;
+  padding: 25px;
+  line-height: 40px;
+}
+
+H5{
+  font-family:CreteRound;
+  font-size:35px;
+  font-weight: bold;
+}
+
+p{
+  font-family:Raleway;
+  font-size:25px;
+}
+.songs{
+  font-family:Raleway;
+  font-size:18px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.album{
+  padding: 5px;
+
+}
